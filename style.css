@@ -1,0 +1,37 @@
+/* Element Selector */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ID Selector - Specific to the main container */
+#main-card {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto; /* Centers the card */
+}
+
+/* Class Selector - Styling the Name */
+.profile-name {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Class Selector - Styling the Title */
+.job-title {
+    color: #777;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bio-section {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin: 15px 0;
+}
